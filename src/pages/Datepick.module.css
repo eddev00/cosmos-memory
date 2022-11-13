@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8vh;
+  margin-top: 10vh;
+  text-align: center;
+}
+
+.container .date {
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+}
+.container .date span {
+  font-size: 2.5vw;
+  letter-spacing: 0.2em;
+}
+.container .date h2 {
+  font-size: 3vw;
+  letter-spacing: 0.2em;
+}
+
+.container img {
+  width: 50%;
+  height: 20%;
+}
+
+@media only screen and (max-width: 760px) {
+  .container .date span {
+    font-size: 2.5vw;
+  }
+  .container .date h2 {
+    font-size: 3vw;
+  }
+  .container img {
+    width: 80%;
+    height: 20%;
+  }
+}

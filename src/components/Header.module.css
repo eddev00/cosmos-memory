@@ -1,0 +1,43 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 2vh 5.347vw;
+}
+.logo {
+  font-weight: 400;
+  font-size: 2.5vw;
+  line-height: 2.688rem;
+}
+
+.socials_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+@media screen and (min-width: 1440px) {
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 55px;
+  }
+  .logo {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .logo {
+    font-size: 3vh;
+  }
+}
+@media only screen and (max-width: 760px) {
+  .logo {
+    font-size: 2.5vh;
+  }
+  .socials_wrapper span {
+    display: none;
+  }
+}
